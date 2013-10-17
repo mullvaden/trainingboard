@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainingBoard.TrelloIntegrator", "TrelloParser\TrainingBoard.TrelloIntegrator.csproj", "{A00FA767-ECF5-4749-B079-730BD2773E14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainingBoard.Tests", "TrainingBoard.Tests\TrainingBoard.Tests.csproj", "{44791274-CC4C-465B-BAE5-9C3AF87DF3BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainingBoard.Web", "TrainingBoard.Web\TrainingBoard.Web.csproj", "{A7FAF4E5-4394-4D47-96A1-4150A06689B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D542F44B-D21F-4244-8620-68911C1E9D2C}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chello.Core", "Chello.Core\Chello.Core.csproj", "{E11E7354-F790-4197-9B2F-BB1135E5378A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chello.Tests", "Chello.Tests\Chello.Tests.csproj", "{8817F92D-AF5B-4A1C-9F85-EE5F4E90B874}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A00FA767-ECF5-4749-B079-730BD2773E14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A00FA767-ECF5-4749-B079-730BD2773E14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A00FA767-ECF5-4749-B079-730BD2773E14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A00FA767-ECF5-4749-B079-730BD2773E14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44791274-CC4C-465B-BAE5-9C3AF87DF3BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44791274-CC4C-465B-BAE5-9C3AF87DF3BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44791274-CC4C-465B-BAE5-9C3AF87DF3BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44791274-CC4C-465B-BAE5-9C3AF87DF3BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7FAF4E5-4394-4D47-96A1-4150A06689B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7FAF4E5-4394-4D47-96A1-4150A06689B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7FAF4E5-4394-4D47-96A1-4150A06689B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7FAF4E5-4394-4D47-96A1-4150A06689B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E11E7354-F790-4197-9B2F-BB1135E5378A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E11E7354-F790-4197-9B2F-BB1135E5378A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E11E7354-F790-4197-9B2F-BB1135E5378A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E11E7354-F790-4197-9B2F-BB1135E5378A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8817F92D-AF5B-4A1C-9F85-EE5F4E90B874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8817F92D-AF5B-4A1C-9F85-EE5F4E90B874}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8817F92D-AF5B-4A1C-9F85-EE5F4E90B874}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8817F92D-AF5B-4A1C-9F85-EE5F4E90B874}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

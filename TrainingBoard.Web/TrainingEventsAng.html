@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Upcoming Training Events</title>
+    <script src="Scripts/angular.js"></script>
+    <script src="Scripts/jquery-2.0.3.min.js"></script>
+    <script src="Scripts/jquery.signalR-2.0.0-rc1.js"></script>
+    <script src="Scripts/TrainingModule.js"></script>
+    <script src="Scripts/TrainingController.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <div data-ng-app="app" data-ng-controller="TrainingEventCtrl" class="container">
+        <!--<div class="page-header">
+            <h1>Upcoming</h1>
+        </div>-->
+
+        <div class="row">
+            <div class="col-sm-4" data-ng-repeat="trainingEvent in trainingEvents">
+                <div class="list-group">
+                    <a href="#" class="list-group-item active">
+                        <h4 class="list-group-item-heading">{{trainingEvent.DayName}}</h4>
+                    </a>
+
+                    <a href="#" class="list-group-item" data-ng-repeat="participant in trainingEvent.Participants">
+                        <h4 class="list-group-item-heading">
+                            <img src="{{participant.Avatar}}" />&nbsp;{{participant.Name}}</h4>
+                        <p class="list-group-item-text"></p>
+                    </a>
+                    <a href="#" class="list-group-item" data-ng-show="trainingEvent.Participants.length==0">
+                        <h4 class="list-group-item-heading">&nbsp;-</h4>
+                        <p class="list-group-item-text"></p>
+                    </a>
+                </div>
+            </div>
+            <!-- /.col-sm-4 -->
+        </div>
+    </div>
+</body>
+</html>
