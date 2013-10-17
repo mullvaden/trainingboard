@@ -4,10 +4,15 @@ namespace TrainingBoard.Web.Controllers
 {
     public class TrelloWebHookerController : Controller
     {
-        [HttpPost]
         public ActionResult Index()
         {
             return View();
+        }
+
+        [HttpPost]
+        public ActionResult TakeAction()
+        {
+            return Json("OK");
         }
     }
 }
