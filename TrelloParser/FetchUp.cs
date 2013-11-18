@@ -33,7 +33,7 @@ namespace TrainingBoard.TrelloIntegrator
             _clock = clock;
 
             FillDayDictionaries();
-            _chello = new ChelloClient("73c8985f750f24ec4755c9982c36bf9c", "c415040a8e5a11fbada9e77210242f043c09fc40424725547c54bc8e68240789");
+            _chello = new ChelloClient("73c8985f750f24ec4755c9982c36bf9c", "311303292e5e10fe375fc3079127537bddd6710254e61cc85d73c2d29d4cf9af");
         }
 
         public List<TrainingEvent> GetUpcoming(int numberOfDaysToLookAhead = 3)

@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainingBoard.TrelloIntegrator", "TrelloParser\TrainingBoard.TrelloIntegrator.csproj", "{A00FA767-ECF5-4749-B079-730BD2773E14}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainingBoard.Tests", "TrainingBoard.Tests\TrainingBoard.Tests.csproj", "{44791274-CC4C-465B-BAE5-9C3AF87DF3BB}"
@@ -17,8 +19,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chello.Core", "Chello.Core\Chello.Core.csproj", "{E11E7354-F790-4197-9B2F-BB1135E5378A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chello.Tests", "Chello.Tests\Chello.Tests.csproj", "{8817F92D-AF5B-4A1C-9F85-EE5F4E90B874}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcApplication1", "MvcApplication1\MvcApplication1.csproj", "{1D984BFF-BB8F-407A-A31B-0D12CF892C87}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,10 +46,6 @@ Global
 		{8817F92D-AF5B-4A1C-9F85-EE5F4E90B874}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8817F92D-AF5B-4A1C-9F85-EE5F4E90B874}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8817F92D-AF5B-4A1C-9F85-EE5F4E90B874}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1D984BFF-BB8F-407A-A31B-0D12CF892C87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1D984BFF-BB8F-407A-A31B-0D12CF892C87}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1D984BFF-BB8F-407A-A31B-0D12CF892C87}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1D984BFF-BB8F-407A-A31B-0D12CF892C87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
