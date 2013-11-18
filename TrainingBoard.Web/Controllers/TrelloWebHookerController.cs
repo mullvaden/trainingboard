@@ -6,7 +6,7 @@ namespace TrainingBoard.Web.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            return Json("OK");
         }
 
         [HttpPost]

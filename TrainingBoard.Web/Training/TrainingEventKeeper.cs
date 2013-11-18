@@ -47,7 +47,7 @@ namespace TrainingBoard.Web.Training
 
         private void GetTrainingEvents()
         {
-            var nextup = _fetchUp.GetUpcoming(1);
+            var nextup = _fetchUp.GetUpcoming(4);
             nextup.ForEach(training => _trainingEvents.TryAdd(training.DayName, training));
             _fetchedDateTime = _clock.Now;
         }
