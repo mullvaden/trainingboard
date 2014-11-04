@@ -11,9 +11,9 @@
 </head>
 <body>
     <div data-ng-app="app" data-ng-controller="TrainingEventCtrl" class="container">
-        <!--<div class="page-header">
-            <h1>Upcoming</h1>
-        </div>-->
+        <div class="page-header" style="padding-top: 5px;">
+            <h1>Träning mm</h1>
+        </div>
 
         <div class="row">
             <div class="col-sm-4" data-ng-repeat="trainingEvent in trainingEvents">
@@ -24,7 +24,8 @@
 
                     <a href="#" class="list-group-item" data-ng-repeat="participant in trainingEvent.Participants">
                         <h4 class="list-group-item-heading">
-                            <img src="{{participant.Avatar}}" />&nbsp;{{participant.Name}}</h4>
+                            <img src="{{participant.Avatar}}" />&nbsp;{{participant.Name}}
+                        </h4>
                         <p class="list-group-item-text"></p>
                     </a>
                     <a href="#" class="list-group-item" data-ng-show="trainingEvent.Participants.length==0">

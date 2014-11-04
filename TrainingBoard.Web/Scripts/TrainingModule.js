@@ -29,21 +29,6 @@ app.factory('trainingEventData', ['$', '$rootScope', function ($, $rootScope) {
         };
 
         var configureProxyClientFunctions = function () {
-            proxy.on('marketOpened', function () {
-                //set market state as open
-                $rootScope.$apply(setMarketState(true));
-            });
-
-            proxy.on('marketClosed', function () {
-                //set market state as closed
-                $rootScope.$apply(setMarketState(false));
-            });
-
-            proxy.on('marketReset', function () {
-                //Reset stock values
-                initializeTrainingEvents();
-            });
-
             proxy.on('updateTrainingEvents', function (data) {
                 $rootScope.$apply(setValues(data));
             });
@@ -63,13 +48,6 @@ app.factory('trainingEventData', ['$', '$rootScope', function ($, $rootScope) {
             });
         };
 
-        var openMarket = function () {
-            proxy.invoke('openMarket');
-        };
-
-        var closeMarket = function () {
-            proxy.invoke('closeMarket');
-        };
 
         var reset = function () {
             proxy.invoke('reset');
@@ -77,8 +55,6 @@ app.factory('trainingEventData', ['$', '$rootScope', function ($, $rootScope) {
 
         return {
             initializeClient: initializeClient,
-            openMarket: openMarket,
-            closeMarket: closeMarket,
             reset: reset,
             setCallbacks: setCallbacks
         };
